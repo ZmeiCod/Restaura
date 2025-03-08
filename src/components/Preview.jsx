@@ -16,9 +16,9 @@ export default function Preview() {
         ></video>
       </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black"/>
-      <div className="relaitive z-20 flex h-screen flex-col justify-end pd-20">
-        <img src={logo} alt="Reastaura"  className="w-full p-4"/>
-        <p className="p-10 text-lg tracking-tighter text-white">Moscow</p>
+      <div className="relaitive z-20 flex h-screen flex-col justify-end pb-30">
+        <img src={logo} alt="Restaura"  className="w-full p-4"/>
+        <p className="p-4 text-lg tracking-tighter text-white">Moscow</p>
       </div>
     </section>
   );
