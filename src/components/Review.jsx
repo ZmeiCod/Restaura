@@ -23,8 +23,7 @@ export default function Review() {
           </div>
         </div>
       </div>
-      <div className="mt-14 flex flex-row items-center justify-center gap-2 mb:flex-col">
-
+      <div className="mt-14 flex lg:flex-row items-center justify-center gap-2 flex-col">
         {[customer1, customer2, customer3, customer4].map((customer, index) => (
           <img key={index} src={customer} alt="customer" className="h-[300px] w-[200px] rounded-br-3xl rounded-tl-3xl object-cover" loading="lazy"/>
         ))}

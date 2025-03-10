@@ -14,7 +14,6 @@ export default function About() {
         </div>
         <div className="w-full px-2 lg:w-1/2">
           <h2 className="text-4xl tracking-tight lg:text-6xl">
-            {" "}
             {ABOUT.header}
           </h2>
           <div className="mb-8 mt-1 h-2 w-36 bg-rose-300 ls: -rotate-3"></div>
