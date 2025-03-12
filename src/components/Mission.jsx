@@ -31,10 +31,13 @@ export default function Mission() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="absolute h-full w-full rounded-3xl bg-black/40"
           />
-          <motion.p initial={{ opacity: 0, y:20 }}
-            whileInView={{ opacity: 1, y:0 }}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 1, delay: 0.5 }} className="absolute max-w-lg tracking-tight lg:text-3xl">
+            transition={{ duration: 1, delay: 0.5 }}
+            className="absolute max-w-lg tracking-tight lg:text-3xl"
+          >
             {MISSION}
           </motion.p>
         </div>
