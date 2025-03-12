@@ -2,11 +2,9 @@ import dish1 from "../assets/dish1.jpeg";
 import dish2 from "../assets/dish2.jpeg";
 import dish3 from "../assets/dish3.jpeg";
 import dish4 from "../assets/dish4.jpeg";
-import dish5 from "../assets/dish5.jpeg";
 import dish6 from "../assets/dish6.jpeg";
 import dish7 from "../assets/dish7.jpeg";
 import dish8 from "../assets/dish8.jpeg";
-import dish9 from "../assets/dish9.jpeg";
 import dish10 from "../assets/dish10.jpeg";
 
 import italian from "../assets/italian.jpeg";
@@ -16,112 +14,93 @@ import indian from "../assets/indian.jpeg";
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
-  { text: "About", targetId: "about" },
-  { text: "Mission", targetId: "mission" },
-  { text: "Expertise", targetId: "expertise" },
-  { text: "Review", targetId: "review" },
-  { text: "Contact", targetId: "contact" },
+  { text: "Блюда", targetId: "dishes" },
+  { text: "О нас", targetId: "about" },
+  { text: "Миссия", targetId: "mission" },
+  { text: "Кухня", targetId: "kitchen" },
+  { text: "Контакты", targetId: "contact" },
 ];
 
 export const DISHES = [
   {
     image: dish1,
-    title: "Spaghetti Carbonara",
-    description: "Creamy pasta with bacon and cheese",
+    title: "Спагетти Карбонара",
+    description: "Сливочная паста с беконом и сыром",
   },
   {
     image: dish2,
-    title: "Chicken Tikka Masala",
-    description: "Indian curry with tender chicken in spicy sauce",
+    title: "Куриная Тикка Масала",
+    description: "Индийское карри с нежной курицей в остром соусе",
   },
   {
     image: dish3,
-    title: "Caprese Salad",
-    description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
+    title: "Салат с капрезе",
+    description: "Свежие помидоры, моцарелла и базилик с бальзамической глазурью",
   },
   {
     image: dish4,
-    title: "Sushi Roll",
-    description: "Assorted seafood and vegetables wrapped in seaweed and rice",
-  },
-  {
-    image: dish5,
-    title: "Chocolate Lava Cake",
-    description: "Decadent chocolate cake with a gooey center",
+    title: "Суши-ролл",
+    description: "Ассорти из морепродуктов и овощей, завернутое в морские водоросли и рис",
   },
   {
     image: dish6,
-    title: "Greek Salad",
-    description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
+    title: "Греческий салат",
+    description: "Хрустящий салат-латук, оливки, сыр фета и острый соус",
   },
   {
     image: dish7,
-    title: "Pad Thai",
-    description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+    title: "Пад-Тай",
+    description: "Обжаренная рисовая лапша с креветками, тофу и арахисом",
   },
   {
     image: dish8,
-    title: "Peking Duck",
-    description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
-  },
-  {
-    image: dish9,
-    title: "Beef Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
+    title: "Утка по-пекински",
+    description: "Хрустящая утка с блинчиками, огурцом и соусом хойсин",
   },
   {
     image: dish10,
-    title: "Tiramisu",
+    title: "Тирамису",
     description:
-      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
+      "Итальянский десерт со слоями пропитанного кофе печенья и маскарпоне",
   },
 ];
 
 export const ABOUT = {
-  header: "We love cooking!",
+  header: "Мы любим готовить!",
   content:
-    "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
+    "В ресторане мы верим, что вкусная еда - это не только вкус; она рассказывает историю самоотверженности и креативности. От фирменных блюд нашего шеф-повара до внимательного обслуживания - каждая деталь продумана до мелочей, чтобы ваш визит был исключительным. Независимо от того, наслаждаетесь ли вы нашим знаменитым Тикка кебабом или изучаете наше разнообразное меню, вдохновленное мировыми вкусами, каждое блюдо - это праздник вкуса и инноваций. Присоединяйтесь к нашему кулинарному путешествию, где каждый кусочек оставляет неизгладимое впечатление. Посетите ресторан, где каждое блюдо — шедевр.",
 };
 
 export const MISSION =
-  "At our restaurant, our mission is to create delicious and memorable dining experiences.";
+  "Наша миссия в нашем ресторане - создавать вкусные и запоминающиеся блюда.";
 
 export const CUSINES = [
   {
     number: "01.",
     image: italian,
-    title: "Italian",
+    title: "Итальянская",
     description:
-      "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
+      "Насладитесь вкусами Италии, отведав изысканные блюда итальянской кухни, приготовленные по традиционным рецептам и современным рецептам.",
   },
   {
     number: "02.",
     image: japanese,
-    title: "Japanese",
+    title: "Японская",
     description:
-      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
+      "Насладитесь искусством японской кулинарии, сочетающей классические и современные вкусы.",
   },
   {
     number: "03.",
     image: indian,
-    title: "Indian",
+    title: "Индийская",
     description:
-      "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
+      "Насладитесь богатыми и разнообразными вкусами Индии с помощью меню, посвященного кулинарному наследию страны.",
   },
 ];
 
-export const REVIEW = {
-  name: "Xaviour Fernando",
-  profession: "Food Critic",
-  content:
-    "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Restaura, with its unassuming exterior and elegantly designed interior, promised a unique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
-};
-
 export const CONTACT = [
-  { key: "address", value: "Address: 123 Main Street, Paris, France, 345678" },
-  { key: "phone", value: "Phone: 123-456-7890" },
-  { key: "email", value: "Email: contact@restaurant.com" },
+  { key: "address", value: "Адрес: г.Санкт-Петербург, ул. Большая Морская, 30" },
+  { key: "phone", value: "Телефон: 7-(931)-XXX-XX-XX" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [

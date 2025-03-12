@@ -1,6 +1,7 @@
 import React from "react";
 import video from "../assets/preview.mp4";
 import logo from "../assets/logo.png";
+import { motion } from "framer-motion";
 
 export default function Preview() {
   return (
@@ -17,8 +18,8 @@ export default function Preview() {
       </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black"/>
       <div className="relaitive z-20 flex h-screen flex-col justify-end pb-30">
-        <img src={logo} alt="Restaura"  className="w-full p-4"/>
-        <p className="p-4 text-lg tracking-tighter text-white">Moscow</p>
+        <motion.img initial={{opacity: 0, y: 50}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5}} src={logo} alt="Restaura"  className="w-full p-4"/>
+        <p className="p-4 text-lg tracking-tighter text-white">Санкт-Петербург</p>
       </div>
     </section>
   );

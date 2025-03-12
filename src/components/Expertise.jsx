@@ -3,9 +3,9 @@ import { CUSINES } from "../constants/index";
 
 export default function Expertise() {
   return (
-    <section id="expertise">
+    <section id="kitchen">
       <h2 className="my-8 text-center text-3xl tracking-tight lg:text-4xl">
-        Our Expertise
+        Наша кухня
       </h2>
       <div className="container mx-auto px-4">
         {CUSINES.map((cusine, index) => (
@@ -19,7 +19,6 @@ export default function Expertise() {
                 src={cusine.image}
                 alt={cusine.title}
                 className="h-auto rounded-3xl"
-                loading="lazy"
               />
             </div>
             <div className="pl-8">
