@@ -1,7 +1,18 @@
-# Project Reastaura
+<div align="center">
+   <h3 align="center">Рыбный ресторан</h3>
 
-Его основная цель изучить новую технологию - Tailwind, поработать с ней на практике при создании красивого интерфейса сайта, посвященого рыбному бару
+   <div align="center">
+     Элегантный сайт-визитка для рыбного ресторана с плавными анимациями и стильным интерфейсом
+    </div>
 
-## Используемые технологии:
--React + Vite
--Tailwind
+    <div>
+        <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+        <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+        <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
+    </div>
+
+  <br />
+    <img src="FullScreen.png" alt="Скриншот страницы">
+  <br />
+</div>
+
